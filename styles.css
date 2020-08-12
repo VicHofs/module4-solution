@@ -7,22 +7,37 @@ body {
   background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.transparenttextures.com%2Fpatterns%2Fbroken-noise.png&f=1&nofb=1');
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 img {
   height: 512px;
-  margin-top: 9vh;
+  margin-top: 7vh;
   width: 512px;
   box-shadow: 0px 0px 20px 4px #00000080;
 }
 
 h1 {
+  align-items: center;
   -webkit-font-smoothing: antialiased;
-  line-height: 100px;
+  line-height: 80px;
   font-family: 'Catamaran', sans-serif;
   text-shadow: 2px 2px 10px #00000080;
   color: #f7e018;
   font-size: 100px;
   font-weight: bold;
   text-align: center;
+  margin: 0;
+  margin-top: 80px;
+  padding-bottom: 0;
+}
+
+#arrow {
+  margin-top: 0;
+}
+
+h1 p {
+  margin: 0;
+  font-size: 60px;
+  font-weight: normal;
 }
